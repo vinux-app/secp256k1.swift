@@ -35,7 +35,7 @@ public extension secp256k1 {
             return context
         }
 
-        static let raw = try! secp256k1.Context.create()
+        public static let raw = try! secp256k1.Context.create()
     }
 }
 
